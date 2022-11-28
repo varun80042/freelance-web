@@ -59,8 +59,7 @@ function Seller() {
 
                     <label for="cost" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cover picture: </label><br/><br/>
                 </form>
-                <button type="submit" id="search_button" style={{top:"40px", left:"-224px", fontSize:"16px", height:"50px", width:"90px", padding:"10px"}}>Submit</button>
-
+                <button type="submit" id="search_button" style={{top:"480px", left:"-180px", fontSize:"16px", height:"50px", width:"90px", padding:"10px", position:'absolute'}}>Submit</button>
             </div>
         </>
     );
