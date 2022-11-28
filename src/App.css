@@ -175,17 +175,18 @@ body {
 
 .web_box {
   background-color: white;
-  height: 420px;
+  height: 490px;
   width: 400px;
   position: relative;
   left: 130px;
-  border: black 2px solid;
+  border: grey 2px solid;
   display: inline-block;
 }
 
 .web_img {
-  height: 260px;
-  padding: 5px;
+  height: 50%;
+  width: 97%;
+  padding: 6px;
 }
 
 .web_icon {
@@ -196,9 +197,91 @@ body {
 }
 
 .web_details {
-  position: relative;
+  position: inherit;
   bottom: 30px;
   left: 10px;
+  padding: 20px;
+  word-break: normal;
+}
+
+.aud_box {
+  background-color: white;
+  height: 490px;
+  width: 400px;
+  position: relative;
+  left: 130px;
+  border: grey 2px solid;
+  display: inline-block;
+}
+
+.aud_img {
+  height: 50%;
+  width: 97%;
+  padding: 6px;
+}
+
+.aud_icon {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 25px;
+}
+
+.aud_details {
+  position: inherit;
+  bottom: 30px;
+  left: 10px;
+  padding: 20px;
+  word-break: normal;
+}
+
+.vid_box {
+  background-color: white;
+  height: 490px;
+  width: 400px;
+  position: relative;
+  left: 130px;
+  border: grey 2px solid;
+  display: inline-block;
+}
+
+.vid_img {
+  height: 50%;
+  width: 97%;
+  padding: 6px;
+}
+
+.vid_icon {
+  position: relative;
+  top: 15px;
+  left: 15px;
+  height: 25px;
+}
+
+.vid_details {
+  position: inherit;
+  bottom: 30px;
+  left: 10px;
+  padding: 20px;
+  word-break: normal;
+}
+
+.buy_now {
+  position: relative;
+  bottom: 160px;
+  left: 140px;
+  height: 70px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  font-family: Secular One;
+  font-size: 20px; 
+  border-radius: 30px;
+}
+
+.buy_now:hover {
+  opacity: 70%;
+  cursor: pointer;
 }
 
 /* ------------------------------------------------------------------------------------------ */
