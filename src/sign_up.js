@@ -39,7 +39,7 @@ function SignUp() {
             <input type="number" id="age" name="age" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
 
             <label for="country" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Country: &nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="number" id="country" name="country" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
+            <input type="text" id="country" name="country" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
 
             <label for="email" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
             <input type="text" id="email" name="email" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />

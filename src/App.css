@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
 }
 
 .search_text {
@@ -201,6 +201,8 @@ body {
   left: 10px;
 }
 
+/* ------------------------------------------------------------------------------------------ */
+
 .sign_in_box {
   background-color: rgb(208, 208, 208);
   padding: 3%;
@@ -247,8 +249,26 @@ body {
     font-style: italic;
 }
 
-input {
-  border: 2px solid black;
-  border-radius: 15px;
+/* ------------------------------------------------------------------------------------------ */
+
+.seller1_box {
+  background-color: rgb(208, 208, 208);
+  padding: 3%;
+  height: 450px;
+  width: 450px;
+  position: relative;
+  bottom: 150px;
+  left: 78px;
+  border: 3px solid black;
 }
 
+.seller2_box {
+  background-color: rgb(208, 208, 208);
+  padding: 3%;
+  height: 450px;
+  width: 450px;
+  position: relative;
+  bottom: 698px;
+  left: 890px;
+  border: 3px solid black;
+}

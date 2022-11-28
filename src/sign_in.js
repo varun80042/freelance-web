@@ -30,10 +30,10 @@ function SignIn() {
         <div class="sign_in_box">
           <form>
             <label for="email" style={{fontFamily:"Courier", fontSize:"20px", fontWeight:"bold"}}>Email:</label><br />
-            <input type="text" id="email" name="email" style={{fontSize:"23px", padding:"2%"}} /><br /><br /><br />
+            <input type="text" id="email" name="email" style={{fontSize:"23px", padding:"2%", border:"2px solid black", borderRadius:"15px"}} /><br /><br /><br />
 
             <label for="password" style={{fontFamily:"Courier", fontSize:"20px", fontWeight:"bold"}}>Password:</label><br />
-            <input type="text" id="password" name="password" style={{fontSize:"23px", padding:"2%"}}/><br />
+            <input type="text" id="password" name="password" style={{fontSize:"23px", padding:"2%", border:"2px solid black", borderRadius:"15px"}}/><br />
 
             <button type="submit" id="search_button" style={{top:"55px", left:"200px", fontSize:"16px", height:"50px", width:"90px", padding:"10px"}}>Submit</button>
 
