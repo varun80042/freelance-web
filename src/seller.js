@@ -19,51 +19,6 @@ function Seller() {
     return (
         <>
 
-            {/* <div class="seller1_box">
-                <form>
-                    <label for="firstname" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>First Name: &nbsp;</label>
-                    <input type="text" id="firstname" name="firstname" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                    <label for="lastname" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Last Name: &nbsp;&nbsp;</label>
-                    <input type="text" id="lastname" name="lastname" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                    <label for="age" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="number" id="age" name="age" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                    <label for="country" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Country: &nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="number" id="country" name="country" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                    <label for="email" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="text" id="email" name="email" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                    <label for="phone" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Phone: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                    <input type="tel" id="phone" name="phone" style={{ fontSize: "20px", padding: "2%" }} /><br /><br />
-
-                </form>
-            </div> */}
-
-            {/* <div class="seller2_box">
-                <form>
-                    <label for="category" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Category: &nbsp;</label>
-                    <select id="category" name="category" style={{ fontFamily: "Arial", fontSize: "15px" }}>
-                        <option value="choice_web">Web Development</option>
-                        <option value="choice_aud">Music and Audio</option>
-                        <option value="choice_vid">Video and Animation</option>
-                    </select>
-                    <br /><br />
-
-                    <label for="description" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Description: </label><br /><br />
-                    <textarea type="text" id="description" name="description" style={{ fontSize: "15px", padding: "2%", height: "100px", width: "432px", resize: "none" }} /><br /><br /><br />
-
-                    <label for="cost" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cost of Service (in INR): </label><br /><br />
-                    <input type="number" id="cost" name="cost" style={{ fontSize: "20px", padding: "2%" }} /><br /><br /><br />
-
-                    <label for="pic" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cover picture: </label><br />
-                    <input type="file" id="pic" name="pic" accept="image/png, image/gif, image/jpeg" style={{ fontSize: "15px", padding: "2%" }} />
-                </form>
-                <button type="submit" id="search_button" style={{ top: "480px", left: "-180px", fontSize: "16px", height: "50px", width: "90px", padding: "10px", position: 'absolute' }}>Submit</button>
-            </div> */}
-
             <img src={bg} class="sign_up_bg" style={{ position: "fixed", top: "70px", height: "100%", width: "100%" }} />
 
             <NavBar />

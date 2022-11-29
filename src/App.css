@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 .search_text {
   font-family: 'Secular One';
   font-size: 50px;
@@ -93,35 +97,31 @@
   top: 113px;
 }
 
-#myVideo {
-  position: absolute;
-}
-
 .tile1 {
   width: 300px;
-  height: 420px;
+  height: 425px;
   position: relative;
   left: 100px;
   border-radius: 20px;
-  border: 3.5px white solid;
+  border: 1px white solid;
 }
 
 .tile2 {
   width: 300px;
-  height: 420px;
+  height: 425px;
   position: relative;
   left: 100px;
   border-radius: 20px;
-  border: 3.5px white solid;
+  border: 1px white solid;
 }
 
 .tile3 {
   width: 300px;
-  height: 420px;
+  height: 425px;
   position: relative;
   left: 100px;
   border-radius: 20px;
-  border: 3.5px white solid;
+  border: 1px white solid;
 }
 
 .tile1:hover,
@@ -146,14 +146,12 @@
   background-image: url("features.jpeg");
   height: 750px;
   background-size: cover;
-  background-attachment: fixed;
 }
 
 .tile_choice {
   z-index: -1;
-  background-image: url("woodenfloor.jpg");
+  background-image: url("https://media.istockphoto.com/id/583726578/photo/wood-desk-plank-to-use-as-background-or-texture.jpg?s=612x612&w=0&k=20&c=nZuqX58HAgvD5UkumW_z0xfjeKu-hWncgQbstb4k35A=");
   background-size: 100%;
-  background-attachment: fixed;
 }
 
 .plus_button {
