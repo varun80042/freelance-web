@@ -295,7 +295,7 @@
 
 .sign_in_box {
   /* background-color: rgb(208, 208, 208); */
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszN5vcUfyX9IqO1yWDzYoZD391ty1wo8T0AvBl3f2BoW68ezWoIAdYjzAt5h069r1cc0&usqp=CAU");
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
   padding: 3%;
   height: 260px;
   width: 350px;
@@ -321,7 +321,7 @@
 }
 
 .sign_up_box {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszN5vcUfyX9IqO1yWDzYoZD391ty1wo8T0AvBl3f2BoW68ezWoIAdYjzAt5h069r1cc0&usqp=CAU");
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
   padding: 3%;
   height: 410px;
   width: 480px;
@@ -348,23 +348,29 @@
 /* ------------------------------------------------------------------------------------------ */
 
 .seller1_box {
-  background-color: rgb(208, 208, 208);
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
   padding: 3%;
-  height: 450px;
-  width: 450px;
+  height: 410px;
+  width: 480px;
   position: relative;
-  bottom: 150px;
-  left: 78px;
+  bottom: 85px;
+  left: 65px;
   border: 3px solid black;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .seller2_box {
-  background-color: rgb(208, 208, 208);
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
   padding: 3%;
-  height: 450px;
-  width: 450px;
+  height: 485px;
+  width: 480px;
   position: relative;
-  bottom: 698px;
-  left: 890px;
+  bottom: 85px;
+  left: 65px;
   border: 3px solid black;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
