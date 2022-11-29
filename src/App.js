@@ -6,6 +6,7 @@ import Home from "./Home.js";
 import SignIn from "./sign_in";
 import SignUp from "./sign_up";
 import Seller from "./seller";
+import Profile from './profile';
 
 class App extends React.Component {
 
@@ -19,6 +20,7 @@ class App extends React.Component {
             <Route exact path="/signin" element={<SignIn />} />
             <Route exact path="/signup" element={<SignUp />} />
             <Route exact path="/seller" element={<Seller />}/>
+            <Route exact path="/profile" element={<Profile />}/>
           </Routes>
         </Router>
       </>

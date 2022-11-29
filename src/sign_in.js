@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 
 import im from './logo.png'
-import bg from './signin.png'
+import bg from './sign_bg.jpeg'
 
 import SearchBar from './search_bar';
 import WhiteBox from './white_box';
@@ -14,35 +14,36 @@ import ProBlock from './pro_version';
 import FootBar from './foot_bar';
 
 function SignIn() {
-    return (
-      <>
-        <img src={bg} class="sign_in_bg" style={{position:"absolute", height:"100%", width:"100%"}}/>
+  document.body.style.overflowY = "hidden";
+  document.body.style.overflowX = "hidden";
+  return (
+    <>
+      <img src={bg} class="sign_in_bg" style={{ position: "absolute", top: "70px", height: "100%", width: "100%" }} />
 
-        <NavBar />
+      <NavBar />
+      <br />
 
-        <img src={im} alt="Logo" height='350px' style={{ position: "relative", top: "120px", left: "200px" }} />
-        <p>
-                <span className="search_text" style={{position:"relative", top: "85px", left:"80px"}}>Find the perfect <i>freelance</i> <br /> services for your business <br /></span>
-        </p>
+      {/* <img src={im} alt="Logo" height='350px' style={{ position: "relative", top: "120px", left: "200px" }} /> */}
+      <p>
+        <span className="search_text" style={{ position: "relative", top: "110px", left: "70px", fontFamily: "Silkscreen", color: "darkblue" }}>Sign In</span>
+      </p>
 
-        <p class="signIn">Sign In</p>
+      <p class="signIn">Sign In</p>
 
-        <div class="sign_in_box">
-          <form>
-            <label for="email" style={{fontFamily:"Courier", fontSize:"20px", fontWeight:"bold"}}>Email:</label><br />
-            <input type="text" id="email" name="email" style={{fontSize:"23px", padding:"2%", border:"2px solid black", borderRadius:"15px"}} /><br /><br /><br />
+      <div class="sign_in_box">
+        <form>
+          <label for="email" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Username</label><br />
+          <input type="text" id="email" name="email" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", width: "330px", height: "25px" }} /><br /><br /><br />
 
-            <label for="password" style={{fontFamily:"Courier", fontSize:"20px", fontWeight:"bold"}}>Password:</label><br />
-            <input type="text" id="password" name="password" style={{fontSize:"23px", padding:"2%", border:"2px solid black", borderRadius:"15px"}}/><br />
+          <label for="password" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Password</label><br />
+          <input type="password" id="password" name="password" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", width: "330px", height: "25px" }} /><br />
 
-            <button type="submit" id="search_button" style={{top:"55px", left:"200px", fontSize:"16px", height:"50px", width:"90px", padding:"10px"}}>Submit</button>
+          <button type="submit" id="search_button" style={{ top: "35px", left: "125px", fontSize: "16px", height: "60px", width: "100px", padding: "10px", fontFamily: "Silkscreen", fontWeight: "bold" }}>Submit</button>
 
-            <a style={{position:"relative", bottom:"55px", left:"1px"}}> <p>Forgot Password</p></a>
-
-          </form>
-        </div>
-      </>
-    );
+        </form>
+      </div>
+    </>
+  );
 }
 
 export default SignIn;

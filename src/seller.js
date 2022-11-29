@@ -14,6 +14,8 @@ import ProBlock from './pro_version';
 import FootBar from './foot_bar';
 
 function Seller() {
+    document.body.style.overflowY = "hidden";
+    document.body.style.overflowX = "hidden";
     return (
         <>
             <img src={bg} class="sign_in_bg" style={{ position: "absolute", height: "100%", width: "100%" }} />
@@ -22,8 +24,8 @@ function Seller() {
 
             <br />
 
-            <p style={{position:'relative', top:"20px", left:"160px", fontSize:"50px", fontFamily:"Secular One", color:"white",WebkitTextStroke:"1px black", WebkitTextStrokeColor:"black"}}>Personal Details</p>
-            <p style={{position:'relative', bottom:"102px", left:"925px", fontSize:"50px", fontFamily:"Secular One", color:"white",WebkitTextStroke:"1px black", WebkitTextStrokeColor:"black"}}>Professional Details</p>
+            <p style={{ position: 'relative', top: "20px", left: "160px", fontSize: "50px", fontFamily: "Secular One", color: "white", WebkitTextStroke: "1px black", WebkitTextStrokeColor: "black" }}>Personal Details</p>
+            <p style={{ position: 'relative', bottom: "102px", left: "925px", fontSize: "50px", fontFamily: "Secular One", color: "white", WebkitTextStroke: "1px black", WebkitTextStrokeColor: "black" }}>Professional Details</p>
 
 
             <div class="seller1_box">
@@ -51,15 +53,24 @@ function Seller() {
 
             <div class="seller2_box">
                 <form>
-                    <label for="description" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Description: </label><br/><br/>
-                    <textarea type="text" id="description" name="description" style={{ fontSize: "20px", padding: "2%" }} /><br /><br /><br />
+                    <label for="category" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Category: &nbsp;</label>
+                    <select id="category" name="category" style={{ fontFamily: "Arial", fontSize: "15px" }}>
+                        <option value="choice_web">Web Development</option>
+                        <option value="choice_aud">Music and Audio</option>
+                        <option value="choice_vid">Video and Animation</option>
+                    </select>
+                    <br /><br />
 
-                    <label for="cost" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cost of Service (in INR): </label><br/><br/>
+                    <label for="description" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Description: </label><br /><br />
+                    <textarea type="text" id="description" name="description" style={{ fontSize: "15px", padding: "2%", height: "100px", width: "432px", resize: "none" }} /><br /><br /><br />
+
+                    <label for="cost" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cost of Service (in INR): </label><br /><br />
                     <input type="number" id="cost" name="cost" style={{ fontSize: "20px", padding: "2%" }} /><br /><br /><br />
 
-                    <label for="cost" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cover picture: </label><br/><br/>
+                    <label for="pic" style={{ fontFamily: "Courier", fontSize: "22px", fontWeight: "bold" }}>Cover picture: </label><br />
+                    <input type="file" id="pic" name="pic" accept="image/png, image/gif, image/jpeg" style={{ fontSize: "15px", padding: "2%" }} />
                 </form>
-                <button type="submit" id="search_button" style={{top:"480px", left:"-180px", fontSize:"16px", height:"50px", width:"90px", padding:"10px", position:'absolute'}}>Submit</button>
+                <button type="submit" id="search_button" style={{ top: "480px", left: "-180px", fontSize: "16px", height: "50px", width: "90px", padding: "10px", position: 'absolute' }}>Submit</button>
             </div>
         </>
     );

@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-
-body {
-  overflow-x: hidden;
-}
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 .search_text {
   font-family: 'Secular One';
@@ -20,7 +17,7 @@ body {
   top: 128px;
 }
 
-#search_bar{
+#search_bar {
   font-family: 'Secular One';
   font-size: 25px;
   position: relative;
@@ -127,7 +124,9 @@ body {
   border: 3.5px white solid;
 }
 
-.tile1:hover, .tile2:hover, .tile3:hover {
+.tile1:hover,
+.tile2:hover,
+.tile3:hover {
   opacity: 75%;
 }
 
@@ -147,12 +146,14 @@ body {
   background-image: url("features.jpeg");
   height: 750px;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .tile_choice {
   z-index: -1;
   background-image: url("woodenfloor.jpg");
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 .plus_button {
@@ -178,7 +179,7 @@ body {
   height: 490px;
   width: 400px;
   position: relative;
-  left: 130px;
+  left: 0px;
   border: grey 2px solid;
   display: inline-block;
 }
@@ -192,16 +193,18 @@ body {
 .web_icon {
   position: relative;
   top: 15px;
-  left: 15px;
-  height: 25px;
+  left: 0px;
+  height: 10px;
+  width: 20px;
 }
 
 .web_details {
   position: inherit;
-  bottom: 30px;
+  bottom: 0px;
   left: 10px;
   padding: 20px;
   word-break: normal;
+  text-align: left;
 }
 
 .aud_box {
@@ -209,7 +212,7 @@ body {
   height: 490px;
   width: 400px;
   position: relative;
-  left: 130px;
+  left: 0px;
   border: grey 2px solid;
   display: inline-block;
 }
@@ -223,16 +226,18 @@ body {
 .aud_icon {
   position: relative;
   top: 15px;
-  left: 15px;
-  height: 25px;
+  left: 0px;
+  height: 10px;
+  width: 20px;
 }
 
 .aud_details {
   position: inherit;
-  bottom: 30px;
+  bottom: 0px;
   left: 10px;
   padding: 20px;
   word-break: normal;
+  text-align: left;
 }
 
 .vid_box {
@@ -240,7 +245,7 @@ body {
   height: 490px;
   width: 400px;
   position: relative;
-  left: 130px;
+  left: 0px;
   border: grey 2px solid;
   display: inline-block;
 }
@@ -254,28 +259,30 @@ body {
 .vid_icon {
   position: relative;
   top: 15px;
-  left: 15px;
-  height: 25px;
+  left: 0px;
+  height: 10px;
+  width: 20px;
 }
 
 .vid_details {
   position: inherit;
-  bottom: 30px;
+  bottom: 0px;
   left: 10px;
   padding: 20px;
   word-break: normal;
+  text-align: left;
 }
 
 .buy_now {
   position: relative;
-  bottom: 160px;
-  left: 140px;
+  bottom: 100px;
+  left: 2px;
   height: 70px;
   width: 120px;
   background-color: black;
   color: white;
   font-family: Secular One;
-  font-size: 20px; 
+  font-size: 20px;
   border-radius: 30px;
 }
 
@@ -287,49 +294,55 @@ body {
 /* ------------------------------------------------------------------------------------------ */
 
 .sign_in_box {
-  background-color: rgb(208, 208, 208);
+  /* background-color: rgb(208, 208, 208); */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszN5vcUfyX9IqO1yWDzYoZD391ty1wo8T0AvBl3f2BoW68ezWoIAdYjzAt5h069r1cc0&usqp=CAU");
   padding: 3%;
-  height: 300px;
-  width: 300px;
+  height: 260px;
+  width: 350px;
   position: relative;
-  bottom: 450px;
-  left: 950px;
+  bottom: 50px;
+  left: 65px;
   border: 3px solid black;
-  border-radius: 50px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .signIn {
-    position: relative;
-    bottom: 400px;
-    left: 970px;
-    font-family: 'Secular One';
-    font-size: 50px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    font-style: italic;
+  position: relative;
+  bottom: 400px;
+  left: 970px;
+  font-family: 'Secular One';
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-style: italic;
 }
 
 .sign_up_box {
-    background-color: rgb(208, 208, 208);
-    padding: 3%;
-    height: 450px;
-    width: 450px;
-    position: relative;
-    bottom: 520px;
-    left: 880px;
-    border: 3px solid black;
-    border-radius: 50px;
-  }
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSszN5vcUfyX9IqO1yWDzYoZD391ty1wo8T0AvBl3f2BoW68ezWoIAdYjzAt5h069r1cc0&usqp=CAU");
+  padding: 3%;
+  height: 410px;
+  width: 480px;
+  position: relative;
+  bottom: 85px;
+  left: 65px;
+  border: 3px solid black;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .signUp {
-    position: relative;
-    bottom: 480px;
-    left: 900px;
-    font-family: 'Secular One';
-    font-size: 50px;
-    color: white;
-    -webkit-text-stroke: 1px black;
-    font-style: italic;
+  position: relative;
+  bottom: 480px;
+  left: 900px;
+  font-family: 'Secular One';
+  font-size: 50px;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  font-style: italic;
 }
 
 /* ------------------------------------------------------------------------------------------ */
