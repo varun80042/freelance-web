@@ -34,7 +34,8 @@ html {
 }
 
 .nav_box {
-  background-color: white;
+  /* background-color: white; */
+  background-image: url("https://i.pinimg.com/originals/0a/b3/49/0ab349c4a030b9870b782d71f1141f32.png");
   position: fixed;
   width: 1535px;
   height: 68px;
@@ -48,20 +49,12 @@ html {
   bottom: 650px;
 }
 
-#logo {
-  position: fixed;
-  left: 50px;
-  top: 5px;
-  height: 60px;
-}
-
 .topnav a {
-  float: right;
   color: black;
-  text-align: center;
   padding: 30px 20px;
   font-size: 20px;
   font-family: 'Secular One';
+  text-decoration: none;
 }
 
 .topnav a:hover {
@@ -131,8 +124,9 @@ html {
 }
 
 .box_white {
-  background-color: white;
-  width: 1520px;
+  /* background-color: white; */
+  background-image: url("https://i.pinimg.com/originals/0a/b3/49/0ab349c4a030b9870b782d71f1141f32.png");
+  width: 1535px;
   height: 60px;
 }
 
@@ -172,99 +166,30 @@ html {
   border: 2px solid black;
 }
 
-.web_box {
+.web_box, .aud_box, .vid_box {
   background-color: white;
-  height: 490px;
+  height: 550px;
   width: 400px;
   position: relative;
-  left: 0px;
+  left: 103px;
+  bottom: 50px;
   border: grey 2px solid;
-  display: inline-block;
+  display: block;
+  float: left;
+  margin: 15px;
 }
 
-.web_img {
-  height: 50%;
+.web_img, .aud_img, .vid_img {
+  height: 45%;
   width: 97%;
   padding: 6px;
-}
-
-.web_icon {
   position: relative;
-  top: 15px;
-  left: 0px;
-  height: 10px;
-  width: 20px;
+  top: 34px;
 }
 
-.web_details {
+.web_details, .aud_details, .vid_details {
   position: inherit;
-  bottom: 0px;
-  left: 10px;
-  padding: 20px;
-  word-break: normal;
-  text-align: left;
-}
-
-.aud_box {
-  background-color: white;
-  height: 490px;
-  width: 400px;
-  position: relative;
-  left: 0px;
-  border: grey 2px solid;
-  display: inline-block;
-}
-
-.aud_img {
-  height: 50%;
-  width: 97%;
-  padding: 6px;
-}
-
-.aud_icon {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  height: 10px;
-  width: 20px;
-}
-
-.aud_details {
-  position: inherit;
-  bottom: 0px;
-  left: 10px;
-  padding: 20px;
-  word-break: normal;
-  text-align: left;
-}
-
-.vid_box {
-  background-color: white;
-  height: 490px;
-  width: 400px;
-  position: relative;
-  left: 0px;
-  border: grey 2px solid;
-  display: inline-block;
-}
-
-.vid_img {
-  height: 50%;
-  width: 97%;
-  padding: 6px;
-}
-
-.vid_icon {
-  position: relative;
-  top: 15px;
-  left: 0px;
-  height: 10px;
-  width: 20px;
-}
-
-.vid_details {
-  position: inherit;
-  bottom: 0px;
+  top: 29px;
   left: 10px;
   padding: 20px;
   word-break: normal;
@@ -272,16 +197,16 @@ html {
 }
 
 .buy_now {
-  position: relative;
-  bottom: 100px;
-  left: 2px;
-  height: 70px;
-  width: 120px;
-  background-color: black;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  height: 50px;
+  width: 180px;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
   color: white;
   font-family: Secular One;
-  font-size: 20px;
-  border-radius: 30px;
+  font-size: 17px;
+  border-radius: 40px;
 }
 
 .buy_now:hover {

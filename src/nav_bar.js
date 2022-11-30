@@ -3,15 +3,12 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const NavBar = () => (
     <div class="nav_box">
-        <div class="topnav">
-            <nav>
-                <Link to="/"><img src={logo} alt="Logo" height='80px' id='logo' /> </Link>
-                <Link to="/signup"><p>Sign Up</p></Link>
-                <Link to="/signin"><p>Sign In</p></Link>
-                <Link to="/seller"><p>Become a Seller</p></Link>
-            </nav>
+        <div class = "topnav">
+        <Link to="/"><img src={logo} alt="Logo" height='60px' style={{position:"fixed", left:"50px", top:"5px" }} /> </Link>
+        <Link to="/signup" style={{position:"fixed", right:"80px", top:"-27px",}}><p>Register</p></Link>
+        <Link to="/signin" style={{position:"fixed", right:"199px", top:"-27px",}}><p>Sign In</p></Link>
         </div>
     </div>
 );
 
-export default NavBar;
+export default NavBar

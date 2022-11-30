@@ -6,7 +6,7 @@ import bg from './signin.png'
 
 import SearchBar from './search_bar';
 import WhiteBox from './white_box';
-import NavBar from './nav_bar';
+import SignedNavBar from './signed_nav_bar';
 import WebBox from './web_box';
 import FeatureBlock from './features';
 import TileChoiceBlock from './tile_choice';
@@ -18,7 +18,7 @@ function Profile(props) {
         <>
             <img src="https://wallpaperaccess.com/full/1567674.jpg" class="sign_in_bg" style={{ position: "absolute", height: "100%", width: "100%" }} />
 
-            <NavBar />
+            <SignedNavBar />
 
             <br />
 

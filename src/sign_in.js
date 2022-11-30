@@ -14,6 +14,7 @@ import ProBlock from './pro_version';
 import FootBar from './foot_bar';
 
 function SignIn() {
+  window.scrollTo(0, 0);
   document.body.style.overflowY = "hidden";
   document.body.style.overflowX = "hidden";
   return (

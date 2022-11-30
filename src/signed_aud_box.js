@@ -2,7 +2,8 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import { Rating } from 'react-simple-star-rating'
 
-function AudBox(props) {
+
+function SignedAudBox(props) {
     return <div class="aud_box">
         <img class="aud_img" src={props.image} />
         <p class='aud_details'>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -13,7 +14,7 @@ function AudBox(props) {
         
         <hr style={{ position: "relative", bottom: "110px", width: "345px" }} />
         <button style={{ position: "relative", bottom: "115px", left: "131px", backgroundColor: "white", border: "0px", fontFamily: "Secular One", fontSize: "20px" }}>{props.cost}</button>
-        <Link to="/signin"><button class="buy_now">🛒 ADD TO CART</button></Link>
+        <Link to="/profile"><button class="buy_now">🛒 ADD TO CART</button></Link>
         
         <div style={{position:"relative", bottom:"145px", right:"120px"}}>
             <Rating initialValue={props.rate} size="20" allowFraction="true"/>
@@ -21,4 +22,4 @@ function AudBox(props) {
     </div>
 }
 
-export default AudBox;
+export default SignedAudBox;
