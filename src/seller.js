@@ -31,8 +31,9 @@ function Seller() {
 
             <p class="signIn">Seller</p>
 
-            <div class="seller1_box">
-                <form>
+            <form>
+                <div class="seller1_box">
+
                     <label for="firstname" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>First Name</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="text" id="firstname" name="firstname" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", width: "250px", height: "15px" }} /><br /><br />
 
@@ -53,37 +54,37 @@ function Seller() {
 
                     <label for="phone" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Phone</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="tel" id="phone" name="phone" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", width: "250px", height: "15px" }} /><br /><br />
-                </form>
-            </div>
 
-            <br /><br />
+                </div>
 
-            <p>
-                <span className="search_text" style={{ position: "relative", top: "-80px", left: "80px", fontFamily: "Silkscreen", color: "darkblue", fontSize: "35px" }}>2. Professional Details</span>
-            </p>
+                <br /><br />
 
-            <div class="seller2_box">
-                <form>
-                    <label for="category" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Category</label> <br/>
-                    <select id="category" name="category" style={{ fontFamily: "Secular One", fontSize: "18px", width:"230px", height:"40px" }}>
+                <p>
+                    <span className="search_text" style={{ position: "relative", top: "-80px", left: "80px", fontFamily: "Silkscreen", color: "darkblue", fontSize: "35px" }}>2. Professional Details</span>
+                </p>
+
+                <div class="seller2_box">
+
+                    <label for="category" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Category</label> <br />
+                    <select id="category" name="category" style={{ fontFamily: "Secular One", fontSize: "18px", width: "230px", height: "40px" }}>
                         <option value="choice_web">&nbsp;&nbsp;Web Development</option>
                         <option value="choice_aud">&nbsp;&nbsp;Music and Audio</option>
                         <option value="choice_vid">&nbsp;&nbsp;Video and Animation</option>
-                    </select> <br/><br/>
+                    </select> <br /><br />
 
                     <label for="description" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Description</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <textarea type="text" id="description" name="description" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", height: "100px", width:"458px", resize:"none" }} /><br /><br />
+                    <textarea type="text" id="description" name="description" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", height: "100px", width: "458px", resize: "none" }} /><br /><br />
 
                     <label for="cost" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Cost of Service (in INR)</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="number" id="cost" name="cost" style={{ fontSize: "15px", padding: "2%", border: "2px solid black", borderRadius: "5px", width: "250px", height: "15px" }} /><br /><br />
 
                     <label for="cover_file" style={{ fontFamily: "Silkscreen", fontSize: "25px", fontWeight: "bold" }}>Cover Picture</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="file" id="cover_file" name="cover_file" accept="image/png, image/jpeg" style={{ fontSize: "15px", padding: "2%",  width: "250px", height: "15px" }} /><br /><br />
-                    
-                    <button type="submit" id="search_button" style={{ top: "6px", left: "170px", fontSize: "16px", height: "60px", width: "110px", padding: "10px", fontFamily: "Silkscreen", fontWeight: "bold" }}>Apply</button>
+                    <input type="file" id="cover_file" name="cover_file" accept="image/png, image/jpeg" style={{ fontSize: "15px", padding: "2%", width: "250px", height: "15px" }} /><br /><br />
 
-                </form>
-            </div>
+                </div>
+                <button type="submit" id="search_button" style={{ top: "-165px", left: "290px", fontSize: "16px", height: "60px", width: "110px", padding: "10px", fontFamily: "Silkscreen", fontWeight: "bold" }}>Apply</button>
+
+            </form>
         </>
     );
 }
