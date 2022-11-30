@@ -13,7 +13,7 @@ function SignedWebBox(props) {
         
         <hr style={{ position: "relative", bottom: "110px", width: "345px" }} />
         <button style={{ position: "relative", bottom: "115px", left: "131px", backgroundColor: "white", border: "0px", fontFamily: "Secular One", fontSize: "20px" }}>{props.cost}</button>
-        <Link to="/profile"><button class="buy_now">🛒 ADD TO CART</button></Link>
+        <button class="buy_now">🛒 ADD TO CART</button>
         
         <div style={{position:"relative", bottom:"145px", right:"120px"}}>
             <Rating initialValue={props.rate} size="20" allowFraction="true"/>

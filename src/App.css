@@ -120,7 +120,7 @@ html {
 .tile1:hover,
 .tile2:hover,
 .tile3:hover {
-  opacity: 75%;
+  opacity: 85%;
 }
 
 .box_white {
@@ -270,30 +270,15 @@ html {
 
 /* ------------------------------------------------------------------------------------------ */
 
-.seller1_box {
+.checkout_box {
   background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
-  padding: 3%;
-  height: 410px;
-  width: 480px;
-  position: relative;
-  bottom: 85px;
-  left: 65px;
   border: 3px solid black;
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.seller2_box {
-  background-image: url("https://img.freepik.com/free-vector/white-abstract-wallpaper_23-2148830026.jpg?w=2000");
-  padding: 3%;
-  height: 485px;
-  width: 480px;
+  height: 500px;
+  width: 650px;
   position: relative;
-  bottom: 85px;
-  left: 65px;
-  border: 3px solid black;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  top: 50px;
+  left: 60px;
 }

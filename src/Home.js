@@ -61,7 +61,7 @@ class Home extends React.Component {
         <div id='web_div' style={{ backgroundImage: 'url("https://wallpaperaccess.com/full/1567674.jpg")', backgroundRepeat: "no-repeat", height: "100%", width: "100%", backgroundSize: "cover" }}>
           <br /><br />
           <h1 style={{ fontFamily: "Secular One", fontSize: "50px", color: "white", WebkitTextStroke: "1px black" }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Web Development</i></h1>
-          <Carousel>
+          <Carousel infiniteLoop="true">
             <div>
               <WebBox name="Manish Pandey" desc="I will create the best websites for you using MERN stack." cost="Rs. 1,499" rate="4.5" image="https://w10.naukri.com/mailers/2021/naukri-learning/oct/27oct-v2/What-is-Web-Developer.jpg" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <WebBox name="Naren Srinivas" desc="I will make responsive webistes using ReactJS and Express." cost="Rs. 990" rate="3" image="https://www.webskittersacademy.in/wp-content/uploads/2015/08/Web-Developer-skill.jpg" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

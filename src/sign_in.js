@@ -23,8 +23,6 @@ function SignIn() {
 
       <NavBar />
       <br />
-
-      {/* <img src={im} alt="Logo" height='350px' style={{ position: "relative", top: "120px", left: "200px" }} /> */}
       <p>
         <span className="search_text" style={{ position: "relative", top: "110px", left: "70px", fontFamily: "Silkscreen", color: "darkblue" }}>Sign In</span>
       </p>
